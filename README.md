@@ -43,8 +43,8 @@ A modern, responsive, and aesthetic personal portfolio website showcasing skills
 
 ## 📋 Personal Information
 
-- **Name**: Jerald Sagusay
-- **Age**: 18 years old
+- **Name**: Jerald Ancero Sagusay
+- **Age**: 19 years old
 - **Gender**: Male
 - **Phone**: 09664230670
 - **Email**: jeraldsagusay61@gmail.com
