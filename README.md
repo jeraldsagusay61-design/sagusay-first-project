@@ -1,4 +1,4 @@
-# Jerald Sagusay - Personal Portfolio
+# Jerald Sagusay - Personal Portfolio Project in Intermediate Programming
 
 A modern, responsive, and aesthetic personal portfolio website showcasing skills, projects, and contact information.
 
