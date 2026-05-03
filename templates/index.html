@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Jerald Sagusay{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Jerald Sagusay</span></h1>
+        <p>An 18-year-old passionate developer and designer dedicated to creating innovative solutions and beautiful digital experiences. Welcome to my personal portfolio!</p>
+        <div>
+            <a href="/about" class="btn btn-primary">Learn More About Me</a>
+            <a href="/contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+    </div>
+    <div class="hero-image">
+        <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Jerald Sagusay Profile Picture">
+    </div>
+</section>
+
+<section class="about">
+    <div class="container">
+        <h2>Quick Overview</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm an 18-year-old developer with a passion for creating functional and aesthetic digital solutions. With a strong foundation in web development and design, I'm committed to delivering high-quality projects that make a real impact.</p>
+                <p>My journey in tech has been driven by curiosity and a desire to continuously learn and improve. I believe in the power of clean code, intuitive design, and user-centered development.</p>
+            </div>
+            <div class="info-box">
+                <h3>Personal Information</h3>
+                <div class="info-item">
+                    <strong>Name:</strong>
+                    <p>Jerald Sagusay</p>
+                </div>
+                <div class="info-item">
+                    <strong>Age:</strong>
+                    <p>18 years old</p>
+                </div>
+                <div class="info-item">
+                    <strong>Gender:</strong>
+                    <p>Male</p>
+                </div>
+                <div class="info-item">
+                    <strong>Phone:</strong>
+                    <p><a href="tel:09664230670">09664230670</a></p>
+                </div>
+                <div class="info-item">
+                    <strong>Email:</strong>
+                    <p><a href="mailto:jeraldsagusay61@gmail.com">jeraldsagusay61@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills">
+    <div class="container">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Web Development</h3>
+                <p>Proficient in HTML, CSS, JavaScript, and modern frameworks. Creating responsive and user-friendly web applications.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Python Programming</h3>
+                <p>Strong foundation in Python with experience in Flask, data structures, and backend development.</p>
+            </div>
+            <div class="skill-card">
+                <h3>UI/UX Design</h3>
+                <p>Passionate about creating beautiful and intuitive user interfaces with attention to detail and user experience.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Problem Solving</h3>
+                <p>Strong analytical skills with the ability to break down complex problems and develop efficient solutions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
